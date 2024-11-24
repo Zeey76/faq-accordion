@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ accordion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <picture>
+      <source srcset="./assets/images/background-pattern-desktop.svg" media="(min-width: 40rem)">
+      <img src="assets/images/background-pattern-mobile.svg">
+    </picture>
+    <div class="accordion-panel">
+      <header> 
+        <img src="./assets/images/icon-star.svg"> 
+        <h3>FAQs</h3>
+      </header>
+
+      <main>
+        <details class="accordion" open>
+          <summary class="accordion-header">What is Frontend Mentor, and how will it help me?</summary>
+          <div class="accordion-content">
+            <p>Frontend Mentor offers realistic coding challenges to help developers improve their 
+            frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+            all levels and ideal for portfolio building.</p>
+          </div>
+        </details>
+        <hr>
+        <details class="accordion">
+          <summary class="accordion-header">Is Frontend Mentor free?</summary>
+          <div class="accordion-content">
+            <p>Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+               option providing access to a range of projects suitable for all skill levels.</p>
+          </div>
+        </details>
+        <hr>
+        <details class="accordion">
+          <summary class="accordion-header">Can I use Frontend Mentor projects in my portfolio?</summary>
+          <div class="accordion-content">
+            <p>Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+              way to showcase your skills to potential employers!</p>
+          </div>
+        </details>
+        <hr>
+        <details class="accordion">
+          <summary class="accordion-header">How can I get help if I'm stuck on a challenge?</summary>
+          <div class="accordion-content">
+            <p>The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+              channel where you can ask questions and seek support from other community members.</p>
+          </div>
+        </details>
+
+      </main>
+   </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">YZainab</a>.
+    </div>
+  </div>
+</body>
+</html>
