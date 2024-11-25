@@ -41,7 +41,7 @@ header {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 header img {
@@ -115,6 +115,6 @@ hr {
     }
 
     h3 {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 }
