@@ -20,7 +20,7 @@ body {
 }
 
 p {
-    font-size: 0.95rem;
+    font-size: 0.87rem;
     color: hsl(292, 16%, 49%);
 }
 
@@ -83,6 +83,10 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.accordion summary::before {
+    content: '';
 }
 
 details > summary::after {
